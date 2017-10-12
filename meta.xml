@@ -1,0 +1,20 @@
+<meta>
+    <info name="Safe Cracker" author="rootcause" type="script" />
+
+    <!-- Files -->
+    <script src="SafeCracker.dll" type="server" lang="compiled" />
+    <script src="SafeCracker_client.js" type="client" lang="javascript" />
+
+    <!-- Settings -->
+    <settings>
+        <setting name="safeDirName" value="Safes" />
+        <setting name="safeRespawnTime" value="300" />
+        <setting name="safeMinLoot" value="150" />
+        <setting name="safeMaxLoot" value="500" />
+    </settings>
+
+    <include resource="MoneyAPI" />
+
+    <!-- Libraries -->
+    <assembly ref="Newtonsoft.Json.dll" />
+</meta>
